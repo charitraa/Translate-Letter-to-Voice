@@ -2,7 +2,7 @@ import gtts as gt
 import playsound as sound
 
 tts = gt.gTTS(
-    'rabi shrestha ' * 5
+    'rabi shrestha '
 )
-tts.save('love.mp3')
-sound.playsound('love.mp3')
+tts.save('voice.mp3')
+sound.playsound('voice.mp3')
